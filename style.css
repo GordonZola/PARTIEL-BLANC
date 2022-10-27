@@ -44,7 +44,7 @@ header{
 .slogan{
     text-align: center;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-top: 150px;
     width: 500px;
 }
@@ -75,8 +75,7 @@ input[type="submit"]{
 .presta1{
     display: inline-block;
     text-align: center;
-    margin: px;
-    margin-left: 300px;
+    margin-left: 325px;
     width: 180px;
     height: 250px;
 }
@@ -85,9 +84,17 @@ input[type="submit"]{
     display: inline-block;
     text-align: center;
     margin: px;
-    margin-left: 300px;
+    margin-left: 325px;
     width: 180px;
     height: 250px;
+}
+
+h6{
+    font-size: large;
+}
+
+.text1{
+    font-size: small;
 }
 
 .galerie1{
@@ -102,4 +109,47 @@ input[type="submit"]{
     width: 468px;
 }
 
+.galerie1:hover{
+    opacity: 0.4;
+}
 
+.galerie2:hover{
+    opacity: 0.4;
+}
+
+.article2{
+    display: inline-block;
+    width: 200px;
+    margin-left: 200px;
+}
+
+h4{
+    color: red;
+    font-size: x-small;
+}
+
+.text{
+    font-size: x-small;
+    color: rgb(68, 68, 68);
+}
+
+.posee{
+    position: absolute;
+    z-index: 15;
+}
+
+.bienposee{
+    color: white;
+    height: 500px;
+    margin-left: 950px;
+    background-color: #53354a;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.valerie{
+    font-size: small;
+    font-style: normal;
+    font-weight: bold;
+}
